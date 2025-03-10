@@ -1,0 +1,11 @@
+def calcular_promedio_edades():
+    edades = []
+    for i in range(3):
+        edad = int(input(f"Introduce la edad {i+1}: "))
+        edades.append(edad)
+    
+    promedio = sum(edades) / len(edades)
+    print(f"El promedio de las edades es: {promedio}")
+
+if __name__ == "__main__":
+    calcular_promedio_edades()
