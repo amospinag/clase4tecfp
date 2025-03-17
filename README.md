@@ -1,5 +1,5 @@
 # clase4tecfp
-****** INTRODUCCIÓN A LA PROGRAMACIÓN********
+****** FUNDAMENTOS DE PROGRAMACIÓN********
 
 # Software de Gestión de Inventario para Ferretería
 
