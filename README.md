@@ -33,13 +33,6 @@ Este proyecto consiste en un software de gestión de inventario para una ferrete
 * `INVENTARIO.py`: Script principal de Python que contiene la lógica del programa.
 * `productos_ferreteria.xlsx`: Archivo Excel con los datos de los productos.
 
-## Próximas Mejoras
-
-* Implementación de una interfaz web con Flask o Django.
-* Conexión a una base de datos para persistencia de datos.
-* Funcionalidades adicionales de gestión de inventario (agregar, editar, eliminar productos).
-* Despliegue en un servidor web o en la nube.
-
 ## Autores
 
 * Andrés Mauricio Ospina Gonzalez
