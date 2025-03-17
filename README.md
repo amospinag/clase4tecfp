@@ -30,7 +30,7 @@ Este proyecto consiste en un software de gestión de inventario para una ferrete
 
 ## Estructura del Proyecto
 
-* `INVENTARIO.py`: Script principal de Python que contiene la lógica del programa.
+* `programa.py`: Script principal de Python que contiene la lógica del programa.
 * `productos_ferreteria.xlsx`: Archivo Excel con los datos de los productos.
 
 ## Autores
