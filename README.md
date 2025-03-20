@@ -1,18 +1,16 @@
 # clase4tecfp
-****** FUNDAMENTOS DE PROGRAMACIÓN********
+****** FUNDAMENTOS DE PROGRAMACIÓN ********
 
 # Software de Gestión de Inventario para Ferretería
 
-Este proyecto consiste en un software de gestión de inventario para una ferretería, desarrollado en Python con la librería `pandas`. Permite cargar datos de productos desde un archivo Excel, visualizar el inventario, calcular el IVA y generar informes sobre el estado del stock.
+Este proyecto consiste en un software de gestión de inventario para una ferretería, desarrollado en Python con las librerías `pandas`, `tkinter` y `os`. Permite cargar datos de productos desde un archivo Excel, visualizar el inventario, calcular el IVA y generar informes sobre el estado del stock.
 
 ## Funcionalidades
 
-* **Carga de datos:** Importa datos de productos desde un archivo Excel (`productos_ferreteria.xlsx`).
+* **Carga de datos:** Importa datos de productos desde un archivo Excel (`inventario_ferretería.xlsx`).
 * **Visualización del inventario:** Muestra una tabla con los datos de los productos, incluyendo ID, nombre, cantidad, precio, fechas de compra y venta, IVA y observaciones sobre el stock.
 * **Cálculo del IVA:** Calcula automáticamente el IVA (19%) para cada producto.
 * **Informes de stock:** Indica si un producto está agotado o por debajo del stock mínimo.
-* **Cálculo de total de compra:** Permite seleccionar productos por ID y cantidad para calcular el total de una compra, incluyendo el IVA.
-* **Impresión de tabla de productos seleccionados:** Muestra los productos seleccionados para la compra en formato de tabla, incluyendo nombre, cantidad, precio e IVA.
 
 ## Requisitos
 
@@ -22,11 +20,13 @@ Este proyecto consiste en un software de gestión de inventario para una ferrete
 
 ## Uso
 
-1.  Clona el repositorio: `git clone URL_DEL_REPOSITORIO`
+1.  Clona el repositorio: `git clone https://github.com/amospinag/clase4tecfp.git`
 2.  Navega al directorio del proyecto: `cd nombre_del_repositorio`
 3.  Instala las dependencias: `pip install pandas`
-4.  Asegúrate de que el archivo `productos_ferreteria.xlsx` esté en el mismo directorio que el script.
-5.  Ejecuta el script: `python INVENTARIO.py`
+4.  Instala las dependencias: `pip install tk`
+5.  Instala las dependencias: `pip install os`
+6.  Asegúrate de que los archivos `inventario_ferretería.xlsx` y `logo.png` estén en el mismo directorio que el script.
+7.  Ejecuta el script: `python programa.py`
 
 ## Estructura del Proyecto
 
